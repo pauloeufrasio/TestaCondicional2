@@ -1,19 +1,15 @@
 public class Testecondional2 {
 
     public static void main(String[] args) {
-
+        // Usando operadores logicos
         System.out.println("Testando condicionais ");
         int idade = 20;
         int quantidadePessoa = 3;
-        if ( idade >= 18) {
+        if (idade >= 18 || quantidadePessoa >= 2) { // Testando operado logico (OU)
             System.out.println("Voce tem mais de 18 anos "); // Testando condição
-        }
-        else if (quantidadePessoa >= 2){
-            System.out.println("Voce não tem 18, mais pode entrar, pois está acompanhado por maiores ");
-        }
-        else {
+        } else {
             System.out.println("Infelizmente voce não pode entrar");
         }
     }
-    }
+}
 
